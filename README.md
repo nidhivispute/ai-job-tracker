@@ -29,6 +29,16 @@ AI Job Tracker is a FastAPI-based backend application that helps users manage jo
 - Uvicorn
 - Git + GitHub
 
+## Running with Docker
+
+Make sure Docker Desktop is installed and running.
+
+Build and start the backend and PostgreSQL containers:
+
+```bash
+docker compose up --build
+```
+
 ## Project Structure
 
 ```txt
