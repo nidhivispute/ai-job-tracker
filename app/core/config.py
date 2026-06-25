@@ -5,6 +5,7 @@ class Settings(BaseSettings):
     app_name: str = "AI Job Tracker"
     environment: str = "development"
     database_url: str
+    test_database_url: str | None = None
 
     secret_key: str
     algorithm: str = "HS256"
